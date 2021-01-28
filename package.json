@@ -1,0 +1,26 @@
+{
+  "name": "bower-git-subdirectory-resolver",
+  "version": "0.0.1",
+  "description": "A Bower pluggable resolver that is capable of installing a bower module from a git subdirectory",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Not Implemented yet!\""
+  },
+  "keywords": [
+    "bower-resolver",
+    "github",
+    "resolver",
+    "subdirectory",
+    "module"
+  ],
+  "author": "info@netcode.lt",
+  "license": "Closed",
+  "dependencies": {
+    "fs-extra": "^0.26.2",
+    "q": "^1.4.1",
+    "tmp": "0.0.28"
+  },
+  "devDependencies": {
+    "eslint": "^0.20.0"
+  }
+}
